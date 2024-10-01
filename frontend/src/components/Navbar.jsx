@@ -1,4 +1,3 @@
-// import React from 'react'
 
 import { Button, Container, Flex, HStack, Text, useColorMode } from "@chakra-ui/react"
 import { Link } from "react-router-dom"; // Use react-router-dom Link for routing

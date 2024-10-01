@@ -23,6 +23,7 @@ app.get("/", (req, res) => {
 
 // Middleware
 app.use(express.json()); // To accept JSON data in the request body
+// app.use(express.urlencoded({ extended: false }));
 
 // Routes
 app.use('/api/products', productRoutes); // Register the product routes
